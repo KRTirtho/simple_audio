@@ -1,0 +1,15 @@
+version: 2
+enable-beta-ecosystems: true
+updates:
+  - package-ecosystem: pub
+    directory: "/packages/simple_audio"
+    schedule:
+      interval: weekly
+  - package-ecosystem: pub
+    directory: "/packages/simple_audio/example"
+    schedule:
+      interval: weekly
+  - package-ecosystem: cargo
+    directory: "/packages/simple_audio/native"
+    schedule:
+      interval: weekly
