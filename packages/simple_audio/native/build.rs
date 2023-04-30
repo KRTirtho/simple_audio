@@ -2,7 +2,7 @@ use lib_flutter_rust_bridge_codegen::{
     config_parse, frb_codegen, get_symbols_if_no_duplicates, RawOpts,
 };
 
-const RUST_INPUT: &str = "src/api.rs";
+const RUST_INPUT: &str = "src/lib.rs";
 const DART_OUTPUT: &str = "../lib/src/bridge_generated.dart";
 
 const IOS_C_OUTPUT: &str = "../../simple_audio/ios/Classes/frb.h";

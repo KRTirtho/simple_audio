@@ -1,0 +1,5 @@
+{
+  "rust-analyzer.linkedProjects": [
+    ".\\packages\\simple_audio\\native\\Cargo.toml",
+  ]
+}

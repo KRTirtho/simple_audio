@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 
-import 'package:simple_audio/simple_audio.dart' as simple_audio;
-
 void main() {
   runApp(const MyApp());
 }
@@ -21,8 +19,6 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    sumResult = simple_audio.sum(1, 2);
-    sumAsyncResult = simple_audio.sumAsync(3, 4);
   }
 
   @override
